@@ -13,6 +13,10 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
+    public Circle(){
+        super();
+    }
+
     public Circle(double radius) {
         if(radius <= 0) {
             throw new IllegalArgumentException("Radius must be positive");
